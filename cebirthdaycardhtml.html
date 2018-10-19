@@ -1,0 +1,21 @@
+<style>
+</style>
+
+<script>
+	function displayPage(){
+		document.getElementById("cover").style.display="none";
+		document.getElementById("page").style.display="inline";
+	}
+	function displayCover(){
+		document.getElementById("cover").style.display="inline";
+		document.getElementById("page").style.display="none";
+	}
+</script>
+
+<head>
+	<title>Happy Birthday, Cebu!</title>
+</head>
+<body>
+	<input id="cover" type="image" src="https://i.imgur.com/QyBza6x.png" onclick="displayPage();">
+	<input id="page" type="image" src="https://i.imgur.com/JWgHlte.png" style="display:none" onclick="displayCover();">
+</body>
